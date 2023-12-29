@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "types": [ "bun-types" ],
+
+    "lib": ["esnext"],
+    "module": "NodeNext",
+    "target": "esnext",
+
+    "moduleResolution": "nodeNext",
+    "outDir": "./dist",
+
+    "esModuleInterop": true,
+
+    "resolveJsonModule": true,
+
+    "noErrorTruncation": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+  },
+  "include": [
+    "src/**/*",
+    "node_modules/rilata/**/*",
+    "node_modules/backend-core/**/*",
+    "node_modules/cy-front-read/**/*",
+    "node_modules/cy-domain/**/*",
+  ],
+}
