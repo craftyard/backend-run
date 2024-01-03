@@ -18,9 +18,9 @@
     "@nestjs/common": "^10.0.0",
     "@nestjs/core": "^10.0.0",
     "@nestjs/platform-express": "^10.0.0",
-    "backend-core": "craftyard/backend-core#fix/import-path",
+    "backend-core": "craftyard/backend-core",
     "cy-domain": "craftyard/domain",
-    "cy-front-read": "craftyard/front-read#fix/test-fixtures",
+    "cy-front-read": "craftyard/front-read",
     "reflect-metadata": "^0.1.13",
     "rilata": "craftyard/rilata-core",
     "rxjs": "^7.8.1"
