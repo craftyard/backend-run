@@ -4,6 +4,5 @@
     "test",
     "dist",
     "**/*test.ts",
-    "**/*/jwt-config.ts"
   ]
 }
